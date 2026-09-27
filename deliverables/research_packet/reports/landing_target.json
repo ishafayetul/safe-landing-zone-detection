@@ -1,0 +1,26 @@
+{
+  "found": true,
+  "rank": 1,
+  "zone_id": "Zone-01",
+  "center_px": [
+    639,
+    502
+  ],
+  "bbox_px": [
+    0,
+    0,
+    3375,
+    2250
+  ],
+  "dominant_class": "paved-area",
+  "score": 0.7878377423406805,
+  "mean_risk": 0.13145259022712708,
+  "footprint_radius_px": 300.0,
+  "max_inscribed_radius_px": 374.7972717285156,
+  "meters_per_pixel": null,
+  "center_m": null,
+  "confidence_score": 0.9040105938911438,
+  "uncertainty_score": 0.14331722259521484,
+  "reason": "A footprint-valid landing region was found.",
+  "note": "Pixel coordinates only. No real-world coordinates available without calibration."
+}

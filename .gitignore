@@ -1,0 +1,45 @@
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+htmlcov/
+.coverage
+.coverage.*
+build/
+dist/
+*.egg-info/
+
+# Local editor and agent settings (including large C/C++ indexes)
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# Local configuration and credentials
+.streamlit/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Generated analysis runs; retain the output directory placeholder
+/outputs/*
+!/outputs/.gitkeep
+
+# Duplicate checkpoint backup; model/ is the runtime checkpoint
+/models/
+
+# Duplicate archive of the included research_packet/ directory
+/deliverables/research_packet.zip
+
+# OS metadata and temporary editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

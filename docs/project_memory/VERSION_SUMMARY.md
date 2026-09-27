@@ -1,0 +1,13 @@
+# Version Summary
+
+This is a compact index. See `VERSION.md` for full implementation details and verification evidence.
+
+| Version | Main theme | Key additions | Important outputs | Verification status |
+|---|---|---|---|---|
+| `0.1.0` | First complete offline demo | Local SegFormer loading, RGB validation, semantic/risk pipeline, connected-region ranking, Streamlit and CLI | Semantic mask, overlay, risk map, best-zone image, candidates CSV | Compilation, local model validation, real CPU inference, synthetic risk/selection checks, Streamlit checks passed |
+| `0.2.0` | Model-aligned, probability-aware hazards | Exact 24-class palette, strict label validation, full probabilities, car/danger hazard override, dilation, tiled inference | Car/danger probability maps, hazard mask, before/after risk, class coverage | Compilation, synthetic hazard tests, real four-tile CPU run, palette and interface checks passed |
+| `0.3.0` | Footprint- and confidence-aware decisions | Circular footprint fit, distance-transform center, geometry metrics, confidence/uncertainty/margin, confidence risk, rejection reporting | Rejections CSV, landing-target JSON, confidence/uncertainty/margin and valid-center maps | Synthetic geometry/confidence tests and real tiled CPU run passed; output and CLI compatibility checked |
+| `0.3.1` | Sequential sample folders | Race-safe `Sample-XX` allocation, explicit Streamlit run action, retained session results, metadata | `input_image.png`, `run_metadata.json`, per-run artifact folders | Consecutive CLI/Streamlit runs, rollover beyond `Sample-99`, metadata, resolution, and model integrity checked |
+| `0.3.2` | Labeled presentation outputs | Titles, legends, colorbars, explanations, default-on labeled saving and display | Standard and debug `_labeled.png` counterparts | Compilation, synthetic render checks, real offline CPU output generation, visual/metadata/UI checks passed |
+| `0.3.3` | Temporary water safety override | Water-probability threshold, conservative RGB heuristic, source filtering, hazard integration, water diagnostics | Water overlay, probability/heuristic/source debug maps and labeled variants | Synthetic water cases and previously failing river image checked; raw semantic output unchanged |
+| `0.3.4` | Ranked safe landing zone list | Valid-only deterministic ranking, stable zone IDs, Rank-1 single source of truth, all/top visualizations and controls | Ranked CSV/JSON, all/top safe-zone images and labeled variants | Compilation, synthetic sorting/filtering, real four-tile CPU, no-zone schemas, visuals, Streamlit, and model hashes checked |

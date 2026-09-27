@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+safetensors
+numpy
+opencv-python
+Pillow
+matplotlib
+scipy
+pandas
+streamlit
+
